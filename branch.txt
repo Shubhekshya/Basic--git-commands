@@ -17,4 +17,6 @@ to switch between branches
 to delete the branch
 >>>> git branch -d <desired_branch>
 
-
+to add,commit cmmd is similar as in main 
+but to  push there will be slight difference in naming 
+ i.e >>>  git push origin <branch_name> 
