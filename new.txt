@@ -1,0 +1,30 @@
+repository(repo) - the space in github that contains all relted files of a project.
+clone - use to bring files from remote repo to your local repo (laptop).
+   git clone <link from github>
+
+changes are first made in the vs, after that ,those changes must be reflected in the remote repo 
+for that we use add, commit, push commands.
+
+Firstly, let's learn about varoius stages of changed files.
+1.untracked - those files that are created only in vs code but remote rerpo is unaware.
+2.modified - those files that are from remote repo and changes are made only in vs
+3.umoidfied - those files that are in remote repo and vs as it is.
+4.staged - those files that are mofidfied in vs and added to remote repo and remained to commit.
+
+
+so here is the work flow
+        create remote repo
+                |
+         CLONE to local 
+                |
+           CHANGES
+                |
+          ADD TO THE Remote 
+                |
+              COMMIT 
+                |
+              PUSH  
+
+
+
+
