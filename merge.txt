@@ -1,0 +1,14 @@
+now sometimes we have to merge branches.
+if the diffenent braches have chnges maed at differnt line of code, 
+there will be simple technique to merge those branch
+BUT  if the changes are made in sme place in both branch thre occurs "MERGE CONFLICT"
+
+to find what is the diiference between braches (compare commit, flies,etc)
+>>>  git diff <branch_name>
+
+to merge we have two ways
+    1.through terminal
+>>>> git merge <branch_name>
+
+    2.  throgh github PULL REQUEST
+
