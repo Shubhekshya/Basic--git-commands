@@ -1,0 +1,22 @@
+As the project progresses, there can be various portion in it where multiple personals work on.
+suppose there were was this sequence of work
+             login --> signup -->button -->arrow
+but someone wnated to go diffrent path from signup i.e
+             login --> signup -->button -->arrow
+                              |                 ------->a webform
+                              -->dropdown --> box
+so here if 1st was the mian plan but some wnet and wnated to follow differnt starting from same origin 
+can create a branch for that 
+
+ to create branch
+ >>>>   git checkout -b <new branch> 
+
+to switch between branches
+>>>>  git checkout <desired_branch>
+
+to delete the branch
+>>>> git branch -d <desired_branch>
+
+to add,commit cmmd is similar as in main 
+but to  push there will be slight difference in naming 
+ i.e >>>  git push origin <branch_name> 
