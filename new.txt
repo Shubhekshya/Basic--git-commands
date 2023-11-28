@@ -28,7 +28,8 @@ so here is the work flow with cmmd
               COMMIT         >>>  git commit -m "message"
                 |
               PUSH          >>>   git push origin main
-
+                                        {NOTE: origin= name given to remote repo
+                                                main= name of branch (by default is main)}
 
 lets add a new branch "Part1" for further commmands.\
  for that command is
