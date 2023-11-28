@@ -15,20 +15,21 @@ Firstly, let's learn about varoius stages of changed files.
 
 
 
-so here is the work flow
+so here is the work flow with cmmd
         create remote repo
                 |
-         CLONE to local 
+         CLONE to local      >>>> git clone <link>
                 |
            CHANGES
                 |
-          ADD TO THE Remote 
+          ADD TO THE Remote  >>>>  git add <file_name> 
+                |                or git add .    -( to add all files)
                 |
-              COMMIT 
+              COMMIT         >>>  git commit -m "message"
                 |
-              PUSH  
+              PUSH          >>>   git push origin main
 
 
 lets add a new branch "Part1" for further commmands.\
  for that command is
-    >>>>   git checkout -d <new branch>
+    >>>>   git checkout -b <new branch>
